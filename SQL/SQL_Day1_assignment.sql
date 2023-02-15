@@ -50,13 +50,15 @@ where [Name] like 'S%'
 --Q11
 select [Name], ListPrice
 from Production.Product
-where [Name] LIKE 'S%'
+where [Name] LIKE '[S]%'
 order by [Name]
 
 --Q12
 select [Name], ListPrice
 from Production.Product
+where [Name] LIKE '[SA]%'
 order by [Name]
+
 
 --Q13
 select [Name]
