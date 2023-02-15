@@ -28,7 +28,7 @@ from Production.product
 where Color is not NULL
 
 --Q7
-select 'NAME: '+[Name]+ ' -- '+ color
+select 'NAME: '+[Name]+ ' -- COLOR: '+ color
 from Production.Product
 where color is not NULL
 
