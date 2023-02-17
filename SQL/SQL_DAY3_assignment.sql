@@ -38,7 +38,7 @@ FROM Customers c
 SELECT City, COUNT(CustomerID) "Customer Number"
 FROM Customers
 GROUP BY City
-HAVING COUNT(CustomerID) > 2
+HAVING COUNT(CustomerID) >= 2
 
 --NOT SURE HOW TO DO WITH Union
 
