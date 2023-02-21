@@ -1,0 +1,29 @@
+Q1: What type would you choose for the following “numbers”?
+A person’s telephone number: string
+A person’s height: int
+A person’s age: int
+A person’s gender (Male, Female, Prefer Not To Answer): enum
+A person’s salary: decimal
+A book’s ISBN: string
+A book’s price: decimal
+A book’s shipping weight: float
+A country’s population: uint
+The number of stars in the universe: decimal
+The number of employees in each of the small or medium businesses in the
+United Kingdom (up to about 50,000 employees per business): uint
+
+Q2:
+A data type is a value type if it holds a data value within its own memory space. It means the variables of these data types directly contain values.
+A reference type doesn't store the value directly. Instead, it store a reference to the address where value is being stored.
+
+Boxing refers to conversion of a data-type to a reference-type value
+Unboxing fefers to conversion of a reference-type to a data-type value
+
+
+Q3:
+CLR is the basic and Virtual Machine component of the .NET Framework. 
+It is the run-time environment in the .NET Framework that runs the codes and helps in making the development process easier by providing the various services
+
+Managed resources are those that are pure . NET code and managed by the runtime and are under its direct control. 
+
+Unmanaged resources are those that are notdirectly under the control of the garbage collector. File handles, pinned memory, COM objects, database connections etc.
