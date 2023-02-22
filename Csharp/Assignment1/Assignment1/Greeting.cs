@@ -1,6 +1,6 @@
 ﻿namespace Assignment1;
 
-public class Greeting
+public static class Greeting
 {
     public static void GreetingToYou()
     {

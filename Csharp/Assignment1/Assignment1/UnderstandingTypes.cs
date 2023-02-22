@@ -1,6 +1,6 @@
 ﻿namespace Assignment1;
 
-public class UnderstandingTypes
+public static class UnderstandingTypes
 {
     public static void ShowValueTypesMemSize()
     {

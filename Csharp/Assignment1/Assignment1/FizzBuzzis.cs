@@ -1,6 +1,6 @@
 ﻿namespace Assignment1;
 
-public class FizzBuzzis
+public static class FizzBuzzis
 {
     public static void FizzBuzz()
     {

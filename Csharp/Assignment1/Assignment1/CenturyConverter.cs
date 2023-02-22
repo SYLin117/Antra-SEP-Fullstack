@@ -1,6 +1,6 @@
 ﻿namespace Assignment1;
 
-public class CenturyConverter
+public static class CenturyConverter
 {
     public static void ConvertCentury()
     {

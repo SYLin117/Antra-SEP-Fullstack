@@ -1,6 +1,6 @@
 ﻿namespace Assignment1;
 
-public class BirthdayCal
+public static class BirthdayCal
 {
     public static void CalculateAge(int year = 1990, int month = 1, int day = 10)
     {

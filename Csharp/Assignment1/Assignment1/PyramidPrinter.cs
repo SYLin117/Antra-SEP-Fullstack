@@ -1,6 +1,6 @@
 ﻿namespace Assignment1;
 
-public class PyramidPrinter
+public static class PyramidPrinter
 {
     public static void PrintPyramid(int row = 5)
     {

@@ -1,6 +1,6 @@
 ﻿namespace Assignment1;
 
-public class CountingProgram
+public static class CountingProgram
 {
     public static void Count()
     {

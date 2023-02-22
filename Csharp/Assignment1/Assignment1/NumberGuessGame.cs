@@ -1,6 +1,6 @@
 ﻿namespace Assignment1;
 
-public class NumberGuessGame
+public static class NumberGuessGame
 {
     public static void GuessNumber(int validMin = 1, int validMax = 3)
     {
