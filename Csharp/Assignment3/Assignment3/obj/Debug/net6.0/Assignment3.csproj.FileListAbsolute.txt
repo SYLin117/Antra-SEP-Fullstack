@@ -1,0 +1,15 @@
+D:\Software Projects\Antra-SEP-Fullstack\Csharp\Assignment3\Assignment3\bin\Debug\net6.0\Assignment3.exe
+D:\Software Projects\Antra-SEP-Fullstack\Csharp\Assignment3\Assignment3\bin\Debug\net6.0\Assignment3.deps.json
+D:\Software Projects\Antra-SEP-Fullstack\Csharp\Assignment3\Assignment3\bin\Debug\net6.0\Assignment3.runtimeconfig.json
+D:\Software Projects\Antra-SEP-Fullstack\Csharp\Assignment3\Assignment3\bin\Debug\net6.0\Assignment3.dll
+D:\Software Projects\Antra-SEP-Fullstack\Csharp\Assignment3\Assignment3\bin\Debug\net6.0\Assignment3.pdb
+D:\Software Projects\Antra-SEP-Fullstack\Csharp\Assignment3\Assignment3\obj\Debug\net6.0\Assignment3.csproj.AssemblyReference.cache
+D:\Software Projects\Antra-SEP-Fullstack\Csharp\Assignment3\Assignment3\obj\Debug\net6.0\Assignment3.GeneratedMSBuildEditorConfig.editorconfig
+D:\Software Projects\Antra-SEP-Fullstack\Csharp\Assignment3\Assignment3\obj\Debug\net6.0\Assignment3.AssemblyInfoInputs.cache
+D:\Software Projects\Antra-SEP-Fullstack\Csharp\Assignment3\Assignment3\obj\Debug\net6.0\Assignment3.AssemblyInfo.cs
+D:\Software Projects\Antra-SEP-Fullstack\Csharp\Assignment3\Assignment3\obj\Debug\net6.0\Assignment3.csproj.CoreCompileInputs.cache
+D:\Software Projects\Antra-SEP-Fullstack\Csharp\Assignment3\Assignment3\obj\Debug\net6.0\Assignment3.dll
+D:\Software Projects\Antra-SEP-Fullstack\Csharp\Assignment3\Assignment3\obj\Debug\net6.0\refint\Assignment3.dll
+D:\Software Projects\Antra-SEP-Fullstack\Csharp\Assignment3\Assignment3\obj\Debug\net6.0\Assignment3.pdb
+D:\Software Projects\Antra-SEP-Fullstack\Csharp\Assignment3\Assignment3\obj\Debug\net6.0\Assignment3.genruntimeconfig.cache
+D:\Software Projects\Antra-SEP-Fullstack\Csharp\Assignment3\Assignment3\obj\Debug\net6.0\ref\Assignment3.dll
