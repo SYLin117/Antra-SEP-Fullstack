@@ -6,7 +6,7 @@ public class Fibonacci
 {
     private int _first = 0;
     private int _second = 1;
-    private int _size = 0;
+    private int _size;
 
     public static void Main()
     {
