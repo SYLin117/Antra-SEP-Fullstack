@@ -1,0 +1,23 @@
+table.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p.normal {
+    font-weight: normal;
+}
+
+p.thick {
+    font-weight: bold;
+}
+
+p.thicker {
+    font-weight: 900;
+}
+
+th, td {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
