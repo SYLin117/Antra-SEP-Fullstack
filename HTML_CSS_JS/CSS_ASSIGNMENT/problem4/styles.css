@@ -1,0 +1,174 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    font-family: Arial;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+    background-color: white;
+
+
+    /*position: absolute;*/
+    display: grid;
+    grid-template-columns: 1fr 1fr 1.1fr 0.9fr;
+    grid-template-rows: 1fr 0.5fr 1.5fr 1fr 1fr 1fr;
+    grid-auto-rows: 1fr;
+    /*gap: 5px 10px;*/
+    grid-auto-flow: row;
+    grid-template-areas:
+    "header header header header"
+    "menu menu menu menu"
+    "welcome welcome welcome News"
+    "products products products message"
+    "products products products message"
+    "footer footer footer footer";
+}
+
+
+.menu {
+    grid-area: menu;
+    background-color: lightgray;
+    display: grid;
+
+
+    grid-template-columns: repeat(8, 1fr);
+    grid-auto-columns: auto;
+    /*align-items: center;*/
+    /*text-align: left;*/
+
+
+}
+
+.menu .navLinks {
+    height: 100%;
+    text-decoration: none;
+    color: slategrey;
+
+    border: 1px solid whitesmoke;
+    border-radius: 16px;
+
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.header {
+    grid-area: header;
+    background-color: green;
+    text-align: right;
+    vertical-align: bottom;
+    position: relative;
+}
+
+.header h3 {
+    position: absolute;
+    width: fit-content;
+    right: 20px;
+    bottom: 5px;
+    color: white;
+}
+
+.welcome {
+    grid-area: welcome;
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.4fr 1.6fr;
+    grid-auto-flow: row;
+    grid-template-areas:
+    "welcome-title"
+    "welcome-p";
+
+
+    margin: 5px;
+    border: 1px solid grey;
+    border-radius: 10px;
+
+    overflow: scroll;
+}
+
+#welcome-title {
+    grid-area: welcome-title;
+}
+
+.products {
+    grid-area: products;
+
+    margin: 5px;
+    border: 1px solid grey;
+    border-radius: 10px;
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-auto-flow: column;
+
+    overflow: scroll;
+}
+
+
+.product-item {
+    grid-area: products;
+
+    margin: 5px;
+    border: 1px solid grey;
+    border-radius: 10px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 0.3fr 1.7fr;
+    grid-template-areas:
+    "product-picture product-name product-name"
+    "product-picture product-discription product-discription";
+
+    height: 250px;
+}
+
+.product-picture {
+    grid-area: product-picture;
+}
+
+.product-picture img {
+    width: 100%;
+}
+
+.product-name {
+    grid-area: product-name;
+}
+
+.product-discription {
+    grid-area: product-discription;
+
+    max-height: inherit;
+    overflow: scroll;
+}
+
+.news {
+    grid-area: News;
+
+    margin: 5px;
+    border: 1px solid grey;
+    border-radius: 10px;
+}
+
+.message {
+    grid-area: message;
+
+    margin: 5px;
+    border: 1px solid grey;
+    border-radius: 10px;
+}
+
+.footer {
+    grid-area: footer;
+
+    background-color: #272e31;
+}
