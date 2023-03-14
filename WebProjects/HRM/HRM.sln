@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Recruiting", "Recruiting", "{5A38A541-32B9-4013-B454-5AB13E1F8DC3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApplicationCore", "Recruiting\ApplicationCore\ApplicationCore.csproj", "{1B5DD8B0-AB32-4650-B553-628255B9ADC0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "Recruiting\Infrastructure\Infrastructure.csproj", "{EAD23371-5632-4AFD-8BEC-7F4B2B348B01}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecruitingWeb", "Recruiting\RecruitingWeb\RecruitingWeb.csproj", "{C2B6334F-191E-4CBE-8A96-04C53A34C4F1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1B5DD8B0-AB32-4650-B553-628255B9ADC0} = {5A38A541-32B9-4013-B454-5AB13E1F8DC3}
+		{EAD23371-5632-4AFD-8BEC-7F4B2B348B01} = {5A38A541-32B9-4013-B454-5AB13E1F8DC3}
+		{C2B6334F-191E-4CBE-8A96-04C53A34C4F1} = {5A38A541-32B9-4013-B454-5AB13E1F8DC3}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1B5DD8B0-AB32-4650-B553-628255B9ADC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B5DD8B0-AB32-4650-B553-628255B9ADC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B5DD8B0-AB32-4650-B553-628255B9ADC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B5DD8B0-AB32-4650-B553-628255B9ADC0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EAD23371-5632-4AFD-8BEC-7F4B2B348B01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAD23371-5632-4AFD-8BEC-7F4B2B348B01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAD23371-5632-4AFD-8BEC-7F4B2B348B01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAD23371-5632-4AFD-8BEC-7F4B2B348B01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2B6334F-191E-4CBE-8A96-04C53A34C4F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2B6334F-191E-4CBE-8A96-04C53A34C4F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2B6334F-191E-4CBE-8A96-04C53A34C4F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2B6334F-191E-4CBE-8A96-04C53A34C4F1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
